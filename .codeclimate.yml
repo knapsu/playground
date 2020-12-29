@@ -2,6 +2,10 @@ version: "2"
 plugins:
   shellcheck:
     enabled: true 
+    exclude_pattern:
+    - "scripts/"
+    - "pmp/scripts/appimagekit/"
 exclude_pattern:
 - "**/tests/"
 - "pmp/scripts/appimagekit/"
+- "alternative-build.sh"
