@@ -1,5 +1,6 @@
+version: "2"
 plugins:
-  eslint:
+  shellcheck:
     enabled: true 
 exclude_pattern:
 - "**/tests/"
