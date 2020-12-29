@@ -1,0 +1,6 @@
+plugins:
+  eslint:
+    enabled: true 
+exclude_pattern:
+- "**/tests/"
+- "pmp/scripts/appimagekit/"
