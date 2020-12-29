@@ -3,9 +3,8 @@ plugins:
   shellcheck:
     enabled: true 
     exclude_pattern:
-    - "scripts/"
-    - "pmp/scripts/appimagekit/"
+    - "**/other-build.sh"
+    - "pmp/scripts/"
 exclude_pattern:
 - "**/tests/"
-- "pmp/scripts/appimagekit/"
-- "alternative-build.sh"
+- "pmp/alternative-build.sh"
